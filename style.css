@@ -502,3 +502,58 @@ html,body {
     font-weight: 600;
     margin-bottom: 0;
 }
+
+.page10{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+    object-fit: cover;
+    text-align: center;
+}
+.upperpage10{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 30vw 0 30vw;
+}
+.page10 h3{
+    font-size: 1.1vw;
+    color: #757373;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.page10 h3 span{
+    font-size: 1.1vw;
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.lowerpage10{
+    height: 70%;
+    display: flex;
+
+}
+.lowerpage10 img{
+    position: relative;
+    object-fit: cover;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.upperpage10 button {
+    margin-top: 3vw;
+    padding: 1.2vw 2.4vw;
+    border-radius: 5vw;;
+    border: none;
+    background-color: rgb(250, 90, 0);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.right button:hover {
+    background-color: #ff823f;
+}
