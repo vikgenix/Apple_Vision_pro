@@ -88,7 +88,7 @@ var tl = gsap.timeline({
 });
 
 // Animating `.page2 > h1` vertically with a top movement
-tl.to(".page2 > h1,h5", {
+tl.to(".page2 > h1", {
     top: `-50%`
 });
 

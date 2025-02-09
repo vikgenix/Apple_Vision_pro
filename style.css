@@ -109,7 +109,7 @@ html,body {
 }
 
 
-.page2>h5 {
+/* .page2>h5 {
     font-size: 1.6vw;
     color: #fff;
     font-weight: 800;
@@ -118,7 +118,7 @@ html,body {
     right: 50%;
     margin-bottom: 3%;
     transform: translateX(50%);
-}
+} */
 
 
 .page2>h1 {
@@ -130,7 +130,10 @@ html,body {
     right: 50%;
     transform: translateX(50%);
 }
-
+.page2>h1>span {
+    font-size: 1.6vw;
+    color: #fff;
+}
 
 
 
