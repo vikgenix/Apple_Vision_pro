@@ -37,6 +37,7 @@ gsap.to(".page>video", {
         trigger: `.page>video`, // The video element itself will trigger the scroll animation
         start: `2 top%`,
         end: `bottom top`,
+        scrub: 2,
         scroller: `.main`
     },
     onStart: () => {
